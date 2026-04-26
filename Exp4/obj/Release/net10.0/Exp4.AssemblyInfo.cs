@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exp4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e71bfa05a4a6f9e2814dd1f8595597b48d2d102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8204ae506b62916a183e526bedaa6c1492aba05b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exp4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exp4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,43 @@
+Entity Framework is tool in dotnet to help us work with
+ database in C# instead to sql query
+Ex : Storeroom like database
+
+EF automatically converts c# into sql query
+It removes the need of writing sql querires manually. Allows developers to interact
+ with database using objects
+
+Why we use EF?
+  without it -
+  we needed to write queries manually
+  more errors
+  time consuming
+  ex: select * from student where student.id = 1;
+
+  with it - 
+  less coding
+  easy to maintain 
+  fast coding
+  ex : context.students.find(1)
+
+EF core - latest, light weight, cross platform version
+  Modern version of EF, that works on windows linux mac
+
+ORM (object relational mapping)
+  maps C# classes to DB tables and obj to rows
+
+Coding approach :
+
+  1.code-first -- start with coding, DB created automatically 
+    (C# -> DB context -> migration -> DB)
+    DB context is main class that connect application with DB
+      public DBset<Student> students {get; set;}
+    DBset - represent a table in DB
+    Migration - used to create or update DB structure automatically
+
+  2.database first -- DB already exist, gegerate c# classes from DB
+
+Activity: 
+  CRUD opration, http methods
+
+
+

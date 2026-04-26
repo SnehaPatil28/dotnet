@@ -1,0 +1,21 @@
+C# database table - object to row
+public class Student{
+  public strin name{get; set;}
+  public integer id{get; set;}
+}
+
+There are 3 types of coding approach:
+  1. code first approach - start with coding, create c# classes, database created automaticaly
+  2. database first - database already exist and just create c# classes from bin
+  3. model first - design model first then db created
+
+DB contex:
+  it is main class that conntects application with your database
+  public Dbset<Student> Students {get; set}
+  It is brige between application and database
+
+Migration:
+  It is used to create update database structure automatically
+  public string email{get; set;} - automatically  add to database
+
+CRUD - create(insert), update, Delete

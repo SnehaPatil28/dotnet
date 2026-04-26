@@ -1,0 +1,23 @@
+Exp 1:
+- variable declaration
+- type casting
+- user input
+- if else ladders
+- for loop
+- operations
+- comparisons
+
+Exp 2:
+- Array
+find largest element
+remove duplicate in array
+  find missing number
+-function
+even or odd
+sum of array
+- string
+reverse number
+  count vowels
+  check palindrome number
+  fibonacci series
+- Object

@@ -1,0 +1,15 @@
+MVC - Model View Control
+  MVC is a design pattern used to organize code in web application.
+
+  It separate application into 3 different responsibilities that is model view control. 
+1. Model - Data layer (represent data, business logic, application , communicate with Database(Database interaction))
+   Ex : public class student(){
+        public string (get; set)
+        public int (get; set)
+   }
+
+2. View- web UI
+3. Controller - Brain of MVC (Handel user request and application flow, connect model and view)
+
+Data Annotations are the attributes used for validation rules - required ,String Length, 
+email address, range
